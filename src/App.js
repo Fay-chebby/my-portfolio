@@ -19,7 +19,6 @@ import {
   Github,
   Linkedin,
   Mail,
-  ExternalLink,
   ChevronDown,
   Play,
   ImageIcon,
@@ -577,7 +576,10 @@ export default function Portfolio() {
             >
               <Linkedin size={24} />
             </a>
-            <a href="#" className="hover:text-white transition-colors">
+            <a
+              href="faychebbyruto@gmail.com"
+              className="hover:text-white transition-colors"
+            >
               <Mail size={24} />
             </a>
           </div>
