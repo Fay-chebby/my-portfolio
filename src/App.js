@@ -80,7 +80,7 @@ export default function Portfolio() {
     {
       id: 3,
       title: " Internet Mobile App",
-      category: "uiux",
+      category: "ui/ux",
       type: "image",
       description: "Complete UI/UX design for  Intrenet mobile  application",
       tools: ["Figma"],
@@ -92,7 +92,7 @@ export default function Portfolio() {
     {
       id: 4,
       title: "New Month poster",
-      category: "graphic",
+      category: "graphics",
       type: "image",
       description: "welcoming the new moth with joy",
       tools: ["Photoshop"],
@@ -112,7 +112,7 @@ export default function Portfolio() {
     {
       id: 6,
       title: "Job Connect",
-      category: "uiux",
+      category: "ui/ux",
       type: "image",
       description: "Figma design for a job connect system",
       tools: ["Figma"],
@@ -121,8 +121,8 @@ export default function Portfolio() {
     },
     {
       id: 7,
-      title: "VetCare POster",
-      category: "graphic",
+      title: "VetCare Poster",
+      category: "graphics",
       type: "image",
       description: "Marketing what client does",
       tools: ["Photoshop"],
@@ -142,7 +142,7 @@ export default function Portfolio() {
     {
       id: 9,
       title: "Job Marketing",
-      category: "graphic",
+      category: "graphics",
       type: "image",
       description: "Marketing Dubai Jobs",
       tools: ["Photoshop"],
@@ -151,8 +151,8 @@ export default function Portfolio() {
     },
     {
       id: 10,
-      title: "Happy new moth",
-      category: "graphic",
+      title: "Happy new month",
+      category: "graphics",
       type: "image",
       description: "Happy new month flyer design",
       tools: ["Illustrator", "Photoshop"],
@@ -162,7 +162,7 @@ export default function Portfolio() {
     {
       id: 11,
       title: "Account  marketing",
-      category: "graphic",
+      category: "graphics",
       type: "image",
       description: "followers poster",
       tools: ["Illustrator", "Photoshop"],
@@ -172,7 +172,7 @@ export default function Portfolio() {
     {
       id: 12,
       title: "Marketing",
-      category: "graphic",
+      category: "graphics",
       type: "image",
       description: "Elegant ",
       tools: ["Photoshop"],
@@ -470,8 +470,8 @@ export default function Portfolio() {
                   {project.category === "graphic"
                     ? "Graphic"
                     : project.category === "uiux"
-                    ? "UI/UX"
-                    : "Video"}
+                      ? "UI/UX"
+                      : "Video"}
                 </div>
               </div>
             ))}

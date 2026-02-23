@@ -1,0 +1,19 @@
+{
+  "id": 14,
+  "email": "faychebbyruto@gmail.com",
+  "password": "$2b$12$KMASBU6trt6GvibLnj0cF.fP4igXySl86K4veIe2J1WTtv/9e.OsS",
+  "role": "student",
+  "status": "active",
+  "firstName": "Faith",
+  "lastName": "Chebet",
+  "isEmailVerified": true,
+  "verificationToken": "a0d15c4aef9ec74a36fc78bd64a9de53a22ebe21415081de84ddb2973cc5f760",
+  "verificationTokenExpires": "2026-01-08T13:04:13.434Z",
+  "resetPasswordToken": null,
+  "resetPasswordExpires": null,
+  "twoFactorSecret": null,
+  "createdAt": "2026-01-07T13:04:13.439Z",
+  "updatedAt": "2026-01-07T13:04:13.439Z",
+  "scholarships": [],
+  "applications": []
+}
