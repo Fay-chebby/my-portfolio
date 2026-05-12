@@ -13,6 +13,12 @@ import Eldersreel from "./video/myVideo.mp4";
 import screenshot from "./assets/Screenshot.jpeg";
 import screenshot1 from "./assets/Screenshot_1png.jpg";
 import Worshipnight from "./video/WorshipN.mp4";
+import rental from "./assets/Rental.png";
+import erp from "./assets/erp.png";
+import coffee from "./assets/coffee design.png";
+import Perfume from "./assets/Perfurme copy.jpg";
+import Git from "./assets/GITPOSTER9.png";
+import Perfume1 from "./assets/Perfume 1.jpg";
 import {
   Menu,
   X,
@@ -80,7 +86,7 @@ export default function Portfolio() {
     {
       id: 3,
       title: " Internet Mobile App",
-      category: "ui/ux",
+      category: "uiux",
       type: "image",
       description: "Complete UI/UX design for  Intrenet mobile  application",
       tools: ["Figma"],
@@ -92,7 +98,7 @@ export default function Portfolio() {
     {
       id: 4,
       title: "New Month poster",
-      category: "graphics",
+      category: "graphic",
       type: "image",
       description: "welcoming the new moth with joy",
       tools: ["Photoshop"],
@@ -112,7 +118,7 @@ export default function Portfolio() {
     {
       id: 6,
       title: "Job Connect",
-      category: "ui/ux",
+      category: "uiux",
       type: "image",
       description: "Figma design for a job connect system",
       tools: ["Figma"],
@@ -121,14 +127,25 @@ export default function Portfolio() {
     },
     {
       id: 7,
-      title: "VetCare Poster",
-      category: "graphics",
+      title: "Coffee design",
+      category: "graphic",
       type: "image",
-      description: "Marketing what client does",
+      description: "Design of coffee marketing poster",
       tools: ["Photoshop"],
-      thumbnail: poster3,
-      fullImage: poster3,
+      thumbnail: coffee,
+      fullImage: coffee,
     },
+    {
+      id: 9,
+      title: "watch",
+      category: "graphic",
+      type: "image",
+      description: "Design of watch poster",
+      tools: ["photoshop"],
+      thumbnail: Perfume,
+      fullImage: Perfume,
+    },
+
     // {
     //   id: 8,
     //   title: "Brand Story Video",
@@ -139,20 +156,11 @@ export default function Portfolio() {
     //   thumbnail: "https://via.placeholder.com/600x400/aaa/333?text=Brand+Video",
     //   videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     // },
-    {
-      id: 9,
-      title: "Job Marketing",
-      category: "graphics",
-      type: "image",
-      description: "Marketing Dubai Jobs",
-      tools: ["Photoshop"],
-      thumbnail: poster4,
-      fullImage: poster4,
-    },
+
     {
       id: 10,
       title: "Happy new month",
-      category: "graphics",
+      category: "graphic",
       type: "image",
       description: "Happy new month flyer design",
       tools: ["Illustrator", "Photoshop"],
@@ -162,7 +170,7 @@ export default function Portfolio() {
     {
       id: 11,
       title: "Account  marketing",
-      category: "graphics",
+      category: "graphic",
       type: "image",
       description: "followers poster",
       tools: ["Illustrator", "Photoshop"],
@@ -172,12 +180,72 @@ export default function Portfolio() {
     {
       id: 12,
       title: "Marketing",
-      category: "graphics",
+      category: "graphic",
       type: "image",
       description: "Elegant ",
       tools: ["Photoshop"],
       thumbnail: poster2,
       fullImage: poster2,
+    },
+    {
+      id: 13,
+      title: "Rental Management Figma design",
+      category: "uiux",
+      type: "image",
+      description: "Design of how the actual application will be ",
+      tools: ["Figma"],
+      thumbnail: rental,
+      fullImage: rental,
+    },
+    {
+      id: 14,
+      title: "Erp design",
+      category: "uiux",
+      type: "image",
+      description: "Design of Virtual mecatronic lab ERP",
+      tools: ["Figma"],
+      thumbnail: erp,
+      fullImage: erp,
+    },
+    {
+      id: 15,
+      title: "VetCare Poster",
+      category: "graphic",
+      type: "image",
+      description: "Marketing what client does",
+      tools: ["Photoshop"],
+      thumbnail: poster3,
+      fullImage: poster3,
+    },
+    {
+      id: 16,
+      title: "Job Marketing",
+      category: "graphic",
+      type: "image",
+      description: "Marketing Dubai Jobs",
+      tools: ["Photoshop"],
+      thumbnail: poster4,
+      fullImage: poster4,
+    },
+    {
+      id: 17,
+      title: "GIT poster",
+      category: "graphic",
+      type: "image",
+      description: "Marketing of git info session",
+      tools: ["Photoshop"],
+      thumbnail: Git,
+      fullImage: Git,
+    },
+    {
+      id: 18,
+      title: "Perfume marketing",
+      category: "graphic",
+      type: "image",
+      description: "Marketing of perfume",
+      tools: ["Photoshop"],
+      thumbnail: Perfume1,
+      fullImage: Perfume1,
     },
   ];
 
